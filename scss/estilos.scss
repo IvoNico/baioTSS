@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+body{
+    header{
+        .menu{
+            background-color: white !important;
+            div{
+                .menu__logo{
+                    width: 100px;
+                    height: 3vh;
+                }
+                .navbar-toggler, .navbar-toggler-icon{
+                    background-color: black;
+                }
+                .menu__listas{
+                    .menu__listas-links{
+                        color: black;
+                    }
+                }
+            }
+        }
+        .header__img{
+            width: 300px;
+            margin: 300px auto 0;
+            display: flex;
+            justify-content: center;
+        }
+        .header__title{
+            @extend .header__img;
+            margin: 0 auto 300px;
+        }
+    }
+    main{
+        .services{
+            box-shadow: 5px 5px 20px 5px (rgba(97, 96, 96, 0.39));
+            margin: 0 auto;
+            width: 90%;
+            height: 45vh;
+            border-radius: 5%;
+            .services__title{
+                margin: 0 auto 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .services__card{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                margin: 0 0 20px;
+                .services__card--info{
+                    box-shadow: 5px 5px 20px 5px (rgba(97, 96, 96, 0.39));
+                    width:90px;
+                    height: 15vh;
+                    border-radius: 5%;
+                    .services__card--img{
+                        width: 90px;
+                        margin: 0 auto;
+                        display: flex;
+                        height: 8vh;
+                        
+                    }
+                    h6{
+                        display: flex;
+                        text-align: center;
+                        margin-top: 5px;
+                        font-weight: bold;
+                    }
+                    .services-title{
+                        font-size: 0.75rem;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

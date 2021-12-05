@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Bhaijaan 2', cursive; }
+
+body header .menu {
+  background-color: white !important; }
+  body header .menu div .menu__logo {
+    width: 100px;
+    height: 3vh; }
+  body header .menu div .navbar-toggler, body header .menu div .navbar-toggler-icon {
+    background-color: black; }
+  body header .menu div .menu__listas .menu__listas-links {
+    color: black; }
+
+body header .header__img, body header .header__title {
+  width: 300px;
+  margin: 300px auto 0;
+  display: flex;
+  justify-content: center; }
+
+body header .header__title {
+  margin: 0 auto 300px; }
+
+body main .services {
+  box-shadow: 5px 5px 20px 5px rgba(97, 96, 96, 0.39);
+  margin: 0 auto;
+  width: 90%;
+  height: 45vh;
+  border-radius: 5%; }
+  body main .services .services__title {
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center; }
+  body main .services .services__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 20px; }
+    body main .services .services__card .services__card--info {
+      box-shadow: 5px 5px 20px 5px rgba(97, 96, 96, 0.39);
+      width: 90px;
+      height: 15vh;
+      border-radius: 5%; }
+      body main .services .services__card .services__card--info .services__card--img {
+        width: 90px;
+        margin: 0 auto;
+        display: flex;
+        height: 8vh; }
+      body main .services .services__card .services__card--info h6 {
+        display: flex;
+        text-align: center;
+        margin-top: 5px;
+        font-weight: bold; }
+      body main .services .services__card .services__card--info .services-title {
+        font-size: 0.75rem; }
