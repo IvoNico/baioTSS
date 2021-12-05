@@ -21,18 +21,19 @@ body header .header__img, body header .header__title {
   justify-content: center; }
 
 body header .header__title {
-  margin: 0 auto 300px; }
+  margin: 0 auto; }
+
+body header .scroll {
+  margin: 100px auto 110px;
+  display: flex; }
 
 body main .services {
-  box-shadow: 5px 5px 20px 5px rgba(97, 96, 96, 0.39);
   margin: 0 auto;
-  width: 90%;
-  height: 45vh;
-  border-radius: 5%; }
+  background-color: #ecebeb;
+  height: 100vh; }
   body main .services .services__title {
     margin: 0 auto 20px;
-    display: flex;
-    justify-content: center; }
+    font-size: 2rem; }
   body main .services .services__card {
     display: flex;
     flex-direction: row;
@@ -40,18 +41,20 @@ body main .services {
     margin: 0 0 20px; }
     body main .services .services__card .services__card--info {
       box-shadow: 5px 5px 20px 5px rgba(97, 96, 96, 0.39);
-      width: 90px;
-      height: 15vh;
+      width: 150px;
+      height: 25vh;
       border-radius: 5%; }
       body main .services .services__card .services__card--info .services__card--img {
-        width: 90px;
+        width: 150px;
         margin: 0 auto;
         display: flex;
-        height: 8vh; }
+        height: 15vh; }
       body main .services .services__card .services__card--info h6 {
         display: flex;
-        text-align: center;
+        justify-content: center;
         margin-top: 5px;
-        font-weight: bold; }
-      body main .services .services__card .services__card--info .services-title {
-        font-size: 0.75rem; }
+        font-weight: bold;
+        font-size: 1.3rem; }
+
+body main .aboutme {
+  margin-top: 400px; }
