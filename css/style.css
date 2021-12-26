@@ -77,3 +77,18 @@ body main .contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
+
+body footer {
+  margin: 0 auto;
+  justify-content: space-around;
+  height: 25vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  body footer .footer__navegation, body footer .footer__contact {
+    display: flex;
+    flex-direction: column; }
+  body footer .footer__logo .footer__logo--img {
+    width: 150px; }

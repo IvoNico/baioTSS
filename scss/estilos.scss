@@ -98,8 +98,25 @@ body{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
-                .contact__card--info{
-                }
+            }
+        }
+    }
+    footer{
+        margin: 0 auto;
+        justify-content: space-around;
+        height: 25vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .footer__navegation, .footer__contact{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer__logo{
+            .footer__logo--img{
+                width: 150px;
             }
         }
     }
