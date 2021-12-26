@@ -42,8 +42,9 @@ body{
     main{
         .services{
             margin: 0 auto;
-            background-color: rgb(236, 235, 235);
+            background-color: rgb(0, 0, 0);
             height: 70vh;
+            color: white;
             .services__title{
                 margin: 20px auto 50px;
                 font-size: 3rem;
@@ -82,6 +83,23 @@ body{
             .aboutme__img{
                 width: 200px;
                 border-radius: 5px;
+            }
+        }
+        .contact{
+            margin: 0 auto;
+            width: 85%;
+            height: 45vh;
+            .contact__title{
+                display: flex;
+                justify-content: center;
+                font-size: 2rem;
+            }
+            .contact__card{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                .contact__card--info{
+                }
             }
         }
     }

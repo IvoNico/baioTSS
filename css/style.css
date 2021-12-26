@@ -29,8 +29,9 @@ body header .scroll {
 
 body main .services {
   margin: 0 auto;
-  background-color: #ecebeb;
-  height: 70vh; }
+  background-color: black;
+  height: 70vh;
+  color: white; }
   body main .services .services__title {
     margin: 20px auto 50px;
     font-size: 3rem; }
@@ -63,3 +64,16 @@ body main .aboutme {
   body main .aboutme .aboutme__img {
     width: 200px;
     border-radius: 5px; }
+
+body main .contact {
+  margin: 0 auto;
+  width: 85%;
+  height: 45vh; }
+  body main .contact .contact__title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem; }
+  body main .contact .contact__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
