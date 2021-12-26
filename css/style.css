@@ -5,7 +5,8 @@
   font-family: 'Baloo Bhaijaan 2', cursive; }
 
 body header .menu {
-  background-color: white !important; }
+  background-color: white !important;
+  width: 100%; }
   body header .menu div .menu__logo {
     width: 100px;
     height: 3vh; }

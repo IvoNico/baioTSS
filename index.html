@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse menu__listas"  id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active menu__listas-links" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link menu__listas-links" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu__listas-links" href="./pages/nutricion.html">Servicios</a>
+                            <a class="nav-link menu__listas-links" href="#contenido">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu__listas-links" href="./pages/salud.html">Nosotros</a>
+                            <a class="nav-link menu__listas-links" href="#aboutme">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu__listas-links" href="./pages/contacto.html">Contacto</a>
+                            <a class="nav-link menu__listas-links" href="#contact">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -42,10 +42,13 @@
         </nav>
         <img class="header__img" src="./Img/BaioTSS.jpeg" alt="">
         <h1 class="header__title">For Agustin Bettig</h1>
-        <img class="scroll" src="./Img/scroll.png" alt="">
+        <a href="#contenido">
+            <img class="scroll" src="./Img/scroll.png"  alt="">
+        </a>
+        
     </header>
     <main>
-        <section class="services">
+        <section id="contenido" class="services">
             <h2 class="services__title">Servicios</h2>
             <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                 <div class="carousel-inner">
@@ -90,11 +93,11 @@
                 </button>
             </div>
         </section>
-        <section class="aboutme">
+        <section id="aboutme" class="aboutme">
             <img class="aboutme__img" src="./Img/BaioTSS__nav.jpeg" alt="">
             <p>Somos una empresa que desarrolla software a medida, con el objetivo de brindar soluciones inteligentes para la mejor performance del cliente</p>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <h2 class="contact__title">Contactanos</h2>
             <div class="contact__card">
                 <span class="contact__card--info">Correo</span>
