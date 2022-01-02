@@ -33,6 +33,9 @@ body{
         .header__title{
             @extend .header__img;
             margin: 0 auto;
+            animation-duration: 10s;
+            animation-name: aparecer;
+            animation-iteration-count:initial;
         }
         .scroll{
             margin: 100px auto 110px;
@@ -82,35 +85,44 @@ body{
             background-color: black;
             color: white;
             .aboutme__img{
-                width: 200px;
+                width: 180px;
                 border-radius: 5px;
+            }
+            .aboutme__text{
+                margin-top: 20px;
             }
         }
         .contact{
-            margin: 0 auto;
-            width: 85%;
-            height: 45vh;
-            .contact__title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .contact__tittle{
+                margin: 0 auto;
                 display: flex;
-                justify-content: center;
-                font-size: 2rem;
+                text-align: center;
             }
             .contact__card{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
+                .contact__card--info{
+                    height: 9vh;
+                    .contact__card--img{
+                        width: 50px;
+                    }
+                    .contact__card--text{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
             }
         }
     }
     footer{
         margin: 0 auto;
-        justify-content: space-around;
-        height: 25vh;
+        height: 20vh;
         background-color: black;
         color: white;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         .footer__navegation, .footer__contact{
             display: flex;
             flex-direction: column;
@@ -121,4 +133,15 @@ body{
             }
         }
     }
+    @keyframes aparecer {     /*Animación para que aparezco el texto*/
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        }
+        }
 }

@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
@@ -40,7 +42,7 @@
                 </div>
             </div>
         </nav>
-        <img class="header__img" src="./Img/BaioTSS.jpeg" alt="">
+        <img id="indice" class="header__img " src="./Img/BaioTSS.jpeg" alt="">
         <h1 class="header__title">For Agustin Bettig</h1>
         <a href="#contenido">
             <img class="scroll" src="./Img/scroll.png"  alt="">
@@ -93,16 +95,29 @@
                 </button>
             </div>
         </section>
-        <section id="aboutme" class="aboutme">
-            <img class="aboutme__img" src="./Img/BaioTSS__nav.jpeg" alt="">
-            <p>Somos una empresa que desarrolla software a medida, con el objetivo de brindar soluciones inteligentes para la mejor performance del cliente</p>
+        <section id="aboutme" class="wow aboutme animate__animated animate__backInRight">
+            <img class="wow aboutme__img " src="./Img/BaioTSS__nav.jpeg" alt="">
+            <p class="aboutme__text">Somos una empresa que desarrolla software a medida, con el objetivo de brindar soluciones inteligentes para la mejor performance del cliente</p>
         </section>
-        <section id="contact" class="contact">
+        <section id="contact" class="wow contact animate__animated animate__backInLeft">
             <h2 class="contact__title">Contactanos</h2>
             <div class="contact__card">
-                <span class="contact__card--info">Correo</span>
-                <span class="contact__card--info">Telefono</span>
-                <span class="contact__card--info">Instagram</span>
+                <div class="contact__card--info">
+                    <img class="contact__card--img" src="./Img/email.png" alt="">
+                    
+                    <a class="contact__card--text" href="">baiotss@gmail.com</a>
+                </div>
+                <div class="contact__card--info">
+                    <img class="contact__card--img" src="./Img/wpp.png" alt="">
+                    
+                    <a class="contact__card--text" href="">29444444</a>
+                </div>
+                <div class="contact__card--info">
+                    <img class="contact__card--img" src="./Img/instagram.png" alt="">
+                    
+                    <a class="contact__card--text" href="https://instagram.com/baiotssar?utm_medium=copy_link">Baiotssar</a>
+                </div>
+                
             </div>
         </section>
     </main>
@@ -113,18 +128,18 @@
             <span>Nosotros</span>
             <span>Contacto</span>
         </div>
-        <div class="footer__logo">
+        <a href="#indice" class="footer__logo">
             <img class="footer__logo--img" src="./Img/BaioTSS__nav.jpeg" alt="">
-        </div>
+        </a>
         <div class="footer__contact">Contacto
-            <span>mail</span>
-            <span>Telefono</span>
-            <span>Instagram</span>
+            <span>baiotss@gmail.com</span>
+            <span>29444444</span>
+            <span>Baiotssar</span>
         </div>
     </footer>
     <script src="js/wow.min.js"></script>
     <script>
-        new WOW().init();
+    new WOW().init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
