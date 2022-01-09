@@ -110,3 +110,75 @@ body footer {
     opacity: 1; }
   100% {
     opacity: 0; } }
+
+@media screen and (max-width: 1049px) and (min-width: 700px) {
+  body main div div {
+    height: 45vh; }
+    body main div div .services__card--img {
+      width: 600px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      height: 35vh; }
+  body main .aboutme {
+    margin: 15px auto 50px;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    box-shadow: 0px 5px 20px 0px rgba(15, 15, 65, 0.658);
+    border-radius: 5px;
+    background-color: black;
+    color: white; }
+    body main .aboutme .aboutme__img {
+      width: 300px;
+      border-radius: 5px; }
+    body main .aboutme .aboutme__text {
+      margin-top: 20px;
+      font-size: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+  body main .contact .contact__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    body main .contact .contact__card .contact__card--info {
+      margin: 25px; } }
+
+@media screen and (max-width: 2000px) and (min-width: 1050px) {
+  body header .header__img, body header .header__title {
+    width: 600px; }
+  body main div div .services__card--img {
+    width: 60%;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; }
+  body main .aboutme {
+    margin: 15px auto 50px;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    box-shadow: 0px 5px 20px 0px rgba(15, 15, 65, 0.658);
+    border-radius: 5px;
+    background-color: black;
+    color: white; }
+    body main .aboutme .aboutme__img {
+      width: 500px;
+      border-radius: 5px; }
+    body main .aboutme .aboutme__text {
+      margin-top: 20px;
+      font-size: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+  body main .contact .contact__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    body main .contact .contact__card .contact__card--info {
+      margin: 25px; } }
