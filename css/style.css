@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Baloo Bhaijaan 2', cursive; }
+  font-family: 'Roboto', sans-serif; }
 
 body header .menu {
   background-color: white !important;
@@ -38,8 +38,17 @@ body main .services {
   height: 70vh;
   color: white; }
   body main .services .services__title {
-    margin: 20px auto 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
     font-size: 3rem; }
+  body main .services .carousel .carousel-inner .carousel-item {
+    border-radius: 5px; }
+    body main .services .carousel .carousel-inner .carousel-item img:hover {
+      border-radius: 5px;
+      transform: scale(1.1, 1.1);
+      transition: 1.5s; }
 
 body main div div {
   height: 45vh; }
@@ -99,6 +108,9 @@ body footer {
   body footer .footer__navegation, body footer .footer__contact {
     display: flex;
     flex-direction: column; }
+  body footer .footer__navegation a {
+    color: white;
+    text-decoration-line: none; }
   body footer .footer__logo .footer__logo--img {
     width: 150px; }
 
@@ -181,4 +193,6 @@ body footer {
     flex-direction: row;
     justify-content: space-between; }
     body main .contact .contact__card .contact__card--info {
-      margin: 25px; } }
+      margin: 25px; }
+  body footer .footer__logo .footer__logo--img {
+    width: 250px; } }
